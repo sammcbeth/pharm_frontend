@@ -1,0 +1,72 @@
+.pricing-page {
+  min-height: 94vh;
+}
+
+.container {
+  max-width: 960px;
+
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid rgb(0, 0, 0);
+  transition: .6s;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: black;
+  border: .05rem solid black;
+}
+
+
+.cover-heading {
+  font-size: 4rem;
+  padding-bottom: 2vh;
+  color: white;
+}
+
+/*
+ * Footer
+ */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.footer {
+  padding-top: 20vh;
+  text-align: center;
+
+}
+
+.mastfoot {
+  color: rgba(0, 0, 0, 0.5);
+
+
+}

@@ -1,0 +1,60 @@
+.trades-page {
+
+  min-height: 94vh;
+  padding-bottom: 5vh;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.jumbotron {
+  border-top: 2px solid rgb(17, 34, 14);
+  border-bottom: 2px solid rgb(17, 34, 14);
+  border-radius: 0;
+  color: white;
+  min-height: 30vh;
+  background: transparent;
+  /* background: #8e9eab;
+  
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+   */
+
+}
+
+.jumbotron p {
+  margin: 0 auto;
+  width: 50vw;
+  color: black;
+}
+
+.form-control-dark {
+  color: #fff;
+
+
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+
+}
+
+/*
+   * Utilities
+   */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.cover-heading {
+  padding-top: 2%;
+}

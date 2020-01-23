@@ -1,0 +1,33 @@
+ .container {
+   max-width: 960px;
+ }
+
+
+ * Custom translucent site header .site-header {
+   background-color: rgba(0, 0, 0, .85);
+   -webkit-backdrop-filter: saturate(180%) blur(20px);
+   backdrop-filter: saturate(180%) blur(20px);
+ }
+
+ .site-header a {
+   color: rgb(27, 54, 22);
+   transition: ease-in-out color .15s;
+ }
+
+ .site-header a:hover {
+   color: rgb(102, 102, 102);
+   text-decoration: none;
+ }
+
+ .nav-item {
+   padding-left: 2vw;
+   padding-right: 2vw;
+ }
+
+ .navbar {
+   min-height: 6vh;
+ }
+
+ .mastfoot {
+   color: rgba(0, 0, 0, 0.5);
+ }

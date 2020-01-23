@@ -1,0 +1,127 @@
+product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.pt-md-5 {
+  padding-top: 6rem;
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.flex-equal>* {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.darkbox {
+  /* background: rgb(17, 34, 14); */
+  background: #8e9eab;
+  -webkit-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.lightbox {
+  -webkit-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  background-color: white;
+  padding: 10% 15%;
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  transition: .6s;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: black;
+  border: .05rem solid black;
+}
+
+
+.container-fluid {
+  min-height: 94vh;
+  padding: 3% 7%;
+}
+
+.actionRow {
+  padding-bottom: 4vh;
+}
+
+.darkboxHR {
+  color: white;
+  border-color: white;
+}
+
+.lightboxHR {
+  color: black;
+  border-color: black;
+}
+
+.product-info {
+  padding: 2rem 0;
+}
+
+h4 {
+  padding-bottom: 1vh;
+}

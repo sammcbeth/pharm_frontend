@@ -1,0 +1,93 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  transition: .8s;
+}
+
+.btn-secondary:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+p {
+  color: black;
+}
+
+/*
+ * Base structure
+ */
+
+
+
+
+.text-center {
+
+
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+
+}
+
+.cover-container {
+  text-align: center;
+  max-width: 55em;
+}
+
+
+.container-fluid {
+  min-height: 94vh;
+  padding: 3% 7%;
+}
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  margin: auto auto;
+  padding: 0 1.5rem;
+}
+
+.cover-heading {
+  font-size: 4rem;
+  padding-bottom: 6vh;
+}
+
+.cover-text {
+  padding-bottom: 2vh;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(0, 0, 0, 0.5);
+}
