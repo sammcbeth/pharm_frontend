@@ -37,10 +37,22 @@
           <p class="lead">{{action.action_report}}</p>
           <hr class="lightboxHR">
           <p>{{action.action_date}}</p>
-        </div>
+          <button (click)="getMarketData(action.company_ticker, action)"
+            class="btn btn-lg btn-secondary btn-inverse">Get Market
+            Data</button>
 
+        </div>
+        <p class="lead">Open: ${{action.marketData?.open}}</p>
+        <hr>
+        <p class="lead">Low: ${{action.marketData?.low}}</p>
+        <hr>
+        <p class="lead">High: ${{action.marketData?.high}}</p>
+        <hr>
+        <p class="lead">Volume: {{action.marketData?.volume}}</p>
+        <hr>
+        <p class="lead">Current Price: ${{action.marketData?.price}}</p>
+        <hr>
       </div>
     </div>
   </div>
 </div>
-<!-- <button (click)="printActions()" class="btn btn-primary">this</button> -->

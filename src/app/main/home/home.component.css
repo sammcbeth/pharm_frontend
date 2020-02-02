@@ -35,7 +35,6 @@ p {
 
 
 
-
 .text-center {
 
 
@@ -68,6 +67,7 @@ p {
 .cover {
   margin: auto auto;
   padding: 0 1.5rem;
+  margin-top: 10vh;
 }
 
 .cover-heading {

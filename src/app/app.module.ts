@@ -14,6 +14,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { LoginComponent } from './login/login.component';
 import { BackgroundComponent } from './background/background.component';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -52,7 +53,7 @@ const routes: Routes = [
     DisclaimerComponent,
     PricingComponent,
     LoginComponent,
-    BackgroundComponent
+    BackgroundComponent,
   ],
   imports: [
     BrowserModule,
